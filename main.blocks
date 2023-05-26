@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="h9hxc?q[yaEe%d4jyYdo">item</variable></variables><block type="pxt-on-start" id="[Da7~mw4T|FssWq.}=ph" x="0" y="0"></block><block type="device_forever" id="Cza2u?|!6=44dIc4H-{_" x="205" y="0"></block><block type="device_gesture_event" id="ox:1u(.{iDRU#dI[Ehn2" x="8" y="261"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="variables_set" id="PuA2Z,a~9dO6,:G9^-}A"><field name="VAR" id="h9hxc?q[yaEe%d4jyYdo">item</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_random" id="#v)si;o2C7nRL%JR!]bT"><value name="min"><shadow type="math_number" id="[_|0]JOy1(dBg2L:a!ds"><field name="NUM">0</field></shadow></value><value name="limit"><shadow type="math_number" id="^:9y8XK|vy*SS]2PClDG"><field name="NUM">2</field></shadow></value></block></value><next><block type="controls_if" id="j,Xwi0N}UF:TqBku5Vs8"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean" id="kQhqv)4FUFI@0/YOzvZX"><field name="BOOL">TRUE</field></shadow></value><statement name="DO0"><block type="device_show_leds" id="EJ4r*#X(#eOHSQC]]E/R"><field name="LEDS">`
+        . . . . . 
+        . # # # . 
+        . # # # . 
+        . # # # . 
+        . . . . .
+        `</field></block></statement><statement name="ELSE"><block type="device_show_leds" id="Rx7gw~;-q]YRmIi{-$HT"><field name="LEDS">`
+        # # . . # 
+        # # . # . 
+        . . # . . 
+        # # . # . 
+        # # . . #
+        `</field></block></statement></block></next></block></statement></block></xml>
